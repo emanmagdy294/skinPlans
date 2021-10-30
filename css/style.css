@@ -1,0 +1,85 @@
+
+.caption
+{
+    color: #363873;
+}
+.show{
+    background-color:#6d6fa1 ;
+    padding: 20px;
+    border-radius: 30px;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+}
+.clear
+{
+    clear: both;
+}
+.show:hover{
+    color: white;
+    background-color:#626494 ;
+}
+a{
+    text-decoration: none;
+}
+.reason{
+    background-color: #363873;
+    border-radius: 8px;
+}
+.reason2{
+    background-color: rgb(241, 239, 239);
+    box-shadow: -5px 2px 54px -9px rgba(75, 75, 75, 0.2);
+    color: #363873;
+    border-radius: 8px;
+}
+.styleMobile
+{
+    border-radius: 20px;
+    background-color: white;
+    border: solid 3px #363873;
+}
+.bgtop{
+    background-color: #363873;
+    color: white;
+    border-radius: 10px;
+    margin-top: 0;
+}
+.bgtop2{
+    background-color: #363873;
+    color: white;
+    margin-top: 0;
+}
+.line {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/***********************************/
+/* take photo */
+    /* CSS comes here */
+
+ #video{
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+
+ }
+    #canvas {
+        display: none;
+    }
+
+    .camera {
+        width: 500px;
+        display: inline-block;
+    }
+
+    .output {
+        width: 340px;
+        display: inline-block;
+    }
+
+    .contentarea {
+        font-size: 16px;
+        font-family: Arial;
+        text-align: center;
+    }

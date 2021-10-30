@@ -1,0 +1,274 @@
+
+body
+{
+    font-family: cairo,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;
+    font-weight: bold;
+    background-color: rgb(231, 231, 231);
+}
+.direction
+{
+    direction: rtl;
+    float: right;
+    text-align: right;
+}
+.clr
+{
+    clear: both; 
+}
+.btnstyle
+{
+    background-color:  #363873;
+    color: white;
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.btnstyle:hover
+{
+    color: white;
+}
+.logo
+{
+    width: 12rem; 
+    margin-right:-100px;
+    direction: rtl; 
+    margin-top: 30px;
+}
+.logo:hover
+{
+    background-color:#373850 ;
+    cursor: pointer;
+}
+.text
+{
+    color: #363873;
+    direction: rtl;
+    float: right;
+}
+.col-md-3
+{
+    padding-right: 0 !important;
+    margin-right: 0!important;
+}
+
+.arrow{
+    font-size: 30px;
+}
+
+
+/* footer */
+.footer{
+    background-color: #363873;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/********************************* media Query *******************************************/
+@media screen and (max-width:575px)
+ {
+     .logo
+{
+ margin-right: 0;
+}
+.logoNav
+{
+    width: 100%;
+}
+   }
+
+     @media screen  and (min-width:300px) and (max-width:768px)
+      {
+.logoNav
+{
+    width: 50% !important;
+}
+     }
+
+  @media screen  and (min-width:2000px) and (max-width:3000px)
+  {
+.logo
+{
+    width: 20rem; 
+    float: right;
+    margin-right:-1000px;
+    direction: rtl; 
+    margin-top: 30px;
+}
+.btnstyle
+{
+    width: 100%;
+    font-size: 30px;
+}
+ }
+
+/******************************/
+.quiz-app
+{
+    margin: 20px auto;
+    width: 60%; 
+}
+.qiz-area>h1{
+    font-size: 16px !important;
+    text-align: center;
+    color: #363873;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.quiz-app .answers-area .answer input[type="Radio"]:checked + label {
+ cursor: pointer;
+ color: rgb(12, 3, 36);
+}
+.answer:checked{
+    background-color: #363873 !important;
+}
+.quiz-app .answers-area .answer label
+{
+    cursor: pointer;
+    font-size: 18px;
+}
+.answer:hover
+{
+    cursor: pointer;
+    background-color: #363873;
+    color: white;
+}
+.submit
+{
+    background-color: #363873;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin: 20px auto;
+    height: 50px;
+    width: 50px;
+}
+
+.bullets
+{
+    border-top: 1px solid #dfdfdf;
+    background-color: rgb(157, 170, 195);
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.spans 
+{
+flex: 1;
+display: flex;
+}
+.spans span
+{
+    width: 95px;
+    height: 8px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 1px;
+}
+span.on
+{
+    background-color: #363873;
+}
+
+.answer
+{
+    border: 2px solid #363873;
+    border-radius: 20px;
+    padding: 2px;
+    margin-top: 10px;
+    text-align: center;
+    color: #535580 ;
+    background-color: white;
+}
+
+.icon
+{
+    color:#363873;
+    font-size: 20px;
+}
+.bad 
+{
+    color: red;
+}
+.excellnt
+{
+    color: blueviolet;
+}
+.good
+{
+    color: blue;
+}
+
+.nav-logo
+{
+    text-align: center;
+    box-shadow: -5px 2px 54px -9px rgba(75, 75, 75, 0.2);
+}
+.progress-bar{
+    background-color: #363873 !important;
+}
+.progress{
+    background-color: rgb(209, 206, 206) !important;
+}
+/**************************************************************************************/
+/**** index page ****/
+
+.bg
+{
+    background-color:rgb(44, 44, 107) ;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+.address
+{
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+.exam
+{
+    font-size: 25px;
+}
+.exam:hover
+{
+    text-decoration: none;
+}
+.button-exam:hover
+{
+    text-decoration: none;
+    background-color: rgb(83, 83, 138);
+}
+
+img{
+    border-radius: 10px;
+}
+
+/***************************/
+
+ .home::after{
+    content: "";
+    animation-name: slider;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slider {
+    0% {
+        content: "ج|";
+    }
+    10% {content: "م|";}
+    20% {content: "جما|";}
+    30% {content: "جمال|";}
+    40% {content: "جمالك|";}
+    50% {content: "و|";}
+    100% {content: "بشرتك|";}
+} 
+.x{
+    background-color: #363873;
+    color: white;
+    border-radius: 10px;
+}
+.x:hover{
+    color: white;
+}
