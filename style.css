@@ -83,7 +83,7 @@ body
 {
     width: 50% !important;
 }
-     }
+}
 
   @media screen  and (min-width:2000px) and (max-width:3000px)
   {
@@ -187,19 +187,6 @@ span.on
     color:#363873;
     font-size: 20px;
 }
-.bad 
-{
-    color: red;
-}
-.excellnt
-{
-    color: blueviolet;
-}
-.good
-{
-    color: blue;
-}
-
 .nav-logo
 {
     text-align: center;
